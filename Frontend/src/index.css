@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* width: 600px;
+  height: 200px; */
+  padding: 0;
+  border-radius: 7px;
+  max-height: min-content;
+  background-color: #463b3b;
+
+  overflow-y: visible;
+
+  /** custom **/
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.table-border {
+  border: 1px solid black;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.dynamic-delete-button {
+  position: relative;
+  top: 4px;
+  margin: 0 8px;
+  color: #999;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.dynamic-delete-button:hover {
+  color: #777;
+}
+.dynamic-delete-button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.action-modal {
+  text-align: center;
+}
+
+.signin-login-header .ant-page-header-content {
+  font-size: x-large !important;
+  font-weight: bold !important;
+  text-align: center;
+}
+
+.ant-table-thead > tr > th {
+  color: #fff !important;
+  background: #1890ff !important;
+  text-align: center !important;
+  font-weight: bold !important;
+}
