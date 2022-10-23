@@ -1,5 +1,5 @@
-NodeJS: 16.13.1
-Database : Postgres 14
+NodeJS: 16.13.1,
+Database : Postgres 14,
 React : 18.0.0
 
 ###frontend installation and running
